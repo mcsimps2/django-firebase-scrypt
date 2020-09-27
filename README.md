@@ -22,7 +22,7 @@ $ export CFLAGS="-I$(brew --prefix openssl)/include $CFLAGS"
 $ export LDFLAGS="-L$(brew --prefix openssl)/lib $LDFLAGS"
 ```
 
-Then install this package
+Then install this package from PyPI (https://pypi.org/project/django-firebase-scrypt/):
 ```
 pip install django-firebase-scrypt
 ```
