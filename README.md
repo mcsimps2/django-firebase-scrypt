@@ -55,8 +55,9 @@ old, migrated hashes instead of generating them for new users.
 ## Migration
 Migrate your Firebase users to Django.  You can do so as follows:
 ```
-# Grab your users and their password hashes using the auth:export command
-$ auth:export users.json
+# Grab your users and their password hashes using the Firebase auth:export command
+$ npm install -g firebase-tools
+$ firebase auth:export users.json
 ```
 
 ```
